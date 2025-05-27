@@ -7,17 +7,136 @@
       content="width=
     , initial-scale=1.0"
     />
-    <title>Document</title>
+    <title>Epicode - Il blog dei developers</title>
   </head>
   <body>
     <header>
       <!-- Head -->
+      <img  id="top" src="assets/img/logo.svg" alt="Logo" />
+      <p>Epicode - Il blog dei developers</p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Articoli</a></li>
+        <li><a href="#">Job</a></li>
+      </ul>
+      <hr />
     </header>
     <main>
       <!-- Main -->
+      <!-- P. Template -->
+      <div>
+        <h1>Come creare un template per i post</h1>
+        <autohor> di Mario Rossi - pubblicato il 25-10-2020 </author>
+            <p>La prima cosa da fare e suddividere in blocchi logici la pagina, identificando le <strong>parti <br> comuni</strong> da applicare a tutte le pagine</p>
+            <p>Le varier aree saranno quindi suddivise in:</p>
+        <!-- Lista Template -->
+        <ul>
+          <li>Contenuti di intestazione del tag &lt;Header&gt; </li>
+          <li>Contenuti centrali variabili del tag &lt;Main&gt; (corpo principale) </li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;Footer&gt; </li>
+        </ul>
+        </div>
+          <!-- P. Formattazione -->
+          <div>
+          <h1>Formattazione del codice</h1>
+          <p>Il testo dell'articolo dovra' essere formattato per identificare tutte le parti da <strong>selezionare<br> 
+            con i CSS.</strong> Percio' i passi saranno:</p>
+          <!-- Lista Formattazione -->
+          <ol>
+            <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag <br> appropiato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni a dall'alto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          <P>L'applicazione di stili CSS e' cresciuta negli anni fino a raggiungere la diffusione <br> pressoche' totale.</P>
+          <!-- Tabella Formattazione -->
+            <table>
+                <caption>Diffusione dei CSS</caption>
+                <thead>
+                <tr>
+                    <th>Anno</th>
+                    <th>% di utilizzo</th>
+                    <th>Supporto browsers</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>22%</td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>45%</td>
+                    <td>42%</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>80%</td>
+                    <td>51%</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>100%</td>
+                    <td>76%</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+                <!-- P. Test -->
+                <div>
+                    <p>Un test di validazione potra' essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una<br> 
+                    volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri<br> 
+                    developers come loro:</p>
+                    <!-- Video YT -->
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/VIDEO_ID"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <!-- P. Novitá -->
+                <div>
+                    <h1>Novitá</h1>
+                    <p>Vuoi rimanere aggiornato su altre novitá del blog? Iscriviti alla nostra newsletter:</p>
+                    <!-- Form Iscrizione -->
+                    <div>
+                        <form action="#" method="post">
+                        <input type="email" id="email" name="email" required placeholder="inserisci l'email" />
+                        <button type="submit">Iscriviti!</button>
+                    </div>
+                </div>
+                <!-- P. Articoli correlati -->
+                <div>
+                    <h1>Articoli correlati</h1>
+                        <p><a href="#">Validare il codice HTML</a></p>
+                        <p>Categoria: devlop</p>
+                        <p>Data: 18-9-2020</p>
+                        <p><a href="#">Correggere la sintassi</a></p>
+                        <p>Categoria: devlop</p>
+                        <p>Data: 16-9-2020</p>
+                        <p><a href="#">Meno Kb nella pagina</a></p>
+                        <p>Categoria: ottimizzazione</p>
+                        <p>Data: 30-9-2020</p>
+                </div>
+                <!-- Bottone torna in cima -->
+                <button><a href="#top">Torna in cima</a></button>
+                    <hr>
     </main>
     <footer>
-      <!-- Footer -->
-    </footer>
+    <!-- Footer -->
+    <div>
+        <p>Blog Epicode ©2023</p>
+            <address>Testata online di Mario Rossi, registrata con pront. n.213/2018 - via Luigi Einaldi 2 -<br> 
+                     Milano. P.IVA 00112233. <a href="mailto:info@epicode.school" target="_blank">info@epicode.school</a>
+            </address>
+    </div>
   </body>
 </html>
